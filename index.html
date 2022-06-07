@@ -1,0 +1,73 @@
+<html>
+
+<!--HEAD CONTENT-->
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/f58e5243e5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!--MAIN-DIV-->
+  <div class="main-container">
+
+    <div class="title">
+      <h1 class="title-header">Invoice Creator</h1>
+      <p class="thanks">Thanks for choosing Goodcorp, LLC!</p>
+    </div>
+
+    <div class="user-input">
+      <button id="washcar" class="user-btn">Wash Car: $10</button>
+      <button id="mownlawn" class="user-btn">Mown Lawn: $20</button>
+      <button id="pullweeds" class="user-btn">Pull Weeds: $30</button>
+    </div>
+
+    <div class="table">
+      <table>
+        <tr>
+          <th><span class="th1-left th-weight">TASK</span></th>
+          <th><span class="th1-right th-weight">TOTAL</span></th>
+        </tr>
+      </table>
+
+      <ul id="options-list"></ul>
+
+      <hr>
+
+      <table class="tbl-output">
+        <tr>
+          <th><span class="th2-left th-weight">NOTES</span></th>
+          <p class="note-info">We accept cash, credit card, or PayPal</p>
+          <th><span class="th2-right th-weight">TOTAL AMOUNT</span></th>
+        </tr>
+        <tr>
+          <td class="total"><span id="total-calculated" class="total-output">$0</span></td>
+        </tr>
+      </table>
+
+      <div class="button-home">
+        <button id="invoice-sent" class="send-invoice"><span class="spacing">✉</span> Send invoice</button>
+      </div>
+
+    </div>
+
+  </div>
+  <!--END OF MAIN DIV-->
+
+  <script src="index.js"></script>
+</body>
+
+</html>
+    
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
